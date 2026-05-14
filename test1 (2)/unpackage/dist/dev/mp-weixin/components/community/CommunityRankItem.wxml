@@ -1,0 +1,1 @@
+<view class="rank-item data-v-298a8a92"><view class="rank-item__portrait data-v-298a8a92"><image class="rank-item__image data-v-298a8a92" src="{{item.image}}" mode="aspectFill"></image></view><view class="rank-item__badge data-v-298a8a92"><text class="rank-item__badge-icon data-v-298a8a92">{{item.badgeIcon}}</text></view></view>

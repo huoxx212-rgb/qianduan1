@@ -1,0 +1,32 @@
+{
+  "pages": [
+    {
+      "path": "pages/community/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "\u5c71\u6c34\u793e\u533a"
+      }
+    },
+    {
+      "path": "pages/ink_painting/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "\u6c34\u58a8\u751f\u6210"
+      }
+    },
+    {
+      "path": "pages/poetry_image/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "\u8bd7\u8bcd\u6210\u753b"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "\u5c71\u6c34\u793e\u533a",
+    "navigationBarBackgroundColor": "#f7f6f3",
+    "backgroundColor": "#1f1f1f"
+  },
+  "uniIdRouter": {}
+}

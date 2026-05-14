@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "山水社区",
+  "usingComponents": {
+    "community-challenge-card": "/components/community/CommunityChallengeCard",
+    "community-rank-item": "/components/community/CommunityRankItem"
+  }
+}

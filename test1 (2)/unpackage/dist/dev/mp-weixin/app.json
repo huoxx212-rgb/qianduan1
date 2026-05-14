@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/community/index",
+    "pages/ink_painting/index",
+    "pages/poetry_image/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "山水社区",
+    "navigationBarBackgroundColor": "#f7f6f3",
+    "backgroundColor": "#1f1f1f"
+  },
+  "usingComponents": {}
+}
