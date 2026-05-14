@@ -1,7 +1,0 @@
-<view class="container">
-  <view class="content">
-    <text class="title">关于诗境山水</text>
-    <text class="paragraph">本项目以中国古典诗词与山水画艺术为核心，结合 AI 图像生成模型，构建一个能够根据诗词意境、古画内容和文人情绪生成山水画的小程序平台。</text>
-    <text class="paragraph">用户既可以通过一句诗生成画作，也可以结合古画历史、画面内容、情绪意境和诗句生成具有东方美学气质的图像作品。</text>
-  </view>
-</view>

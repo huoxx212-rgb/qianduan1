@@ -1,3 +1,0 @@
-.container { padding: 40rpx; background-color: #F5F5DC; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
-.status-box { width: 100%; background: #fff; padding: 60rpx 40rpx; border-radius: 16rpx; text-align: center; }
-.status-text { font-size: 32rpx; color: #333; margin-bottom: 40rpx; display: block; }
