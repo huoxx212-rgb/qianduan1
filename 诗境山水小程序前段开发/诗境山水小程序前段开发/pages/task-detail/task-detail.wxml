@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="status-box">
+    <text class="status-text">{{statusText}}</text>
+    <progress percent="{{progress}}" show-info stroke-width="6" activeColor="#333" />
+  </view>
+</view>

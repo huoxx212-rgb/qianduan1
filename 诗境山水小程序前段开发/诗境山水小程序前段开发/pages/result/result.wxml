@@ -1,0 +1,20 @@
+<view class="container">
+  <view class="image-wrapper">
+    <image src="{{resultData.image_url}}" mode="widthFix" class="result-img"></image>
+  </view>
+  <view class="info-card" wx:if="{{taskType === 'poem'}}">
+    <text class="info-label">依据诗词：</text>
+    <text class="info-text">{{resultData.poem}}</text>
+  </view>
+  <view class="info-card" wx:if="{{taskType === 'painting'}}">
+    <text class="info-label">历史：</text><text class="info-text">{{resultData.history}}</text>
+    <text class="info-label">内容：</text><text class="info-text">{{resultData.content}}</text>
+    <text class="info-label">意境：</text><text class="info-text">{{resultData.mood}}</text>
+    <text class="info-label">诗句：</text><text class="info-text">{{resultData.poem}}</text>
+  </view>
+  <view class="btn-group">
+    <button class="btn" bindtap="goBack">再生成一次</button>
+    <button class="btn" bindtap="goHome">返回首页</button>
+    <button class="btn" bindtap="goHistory">查看历史</button>
+  </view>
+</view>

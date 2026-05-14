@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="list">
+    <view class="item" wx:for="{{historyList}}" wx:key="task_id" bindtap="viewDetail" data-id="{{item.task_id}}">
+      <image class="thumb" src="{{item.image_url}}" mode="aspectFill"></image>
+      <view class="info">
+        <text class="title">{{item.title}}</text>
+        <text class="meta">{{item.type === 'poem' ? '以诗入画' : '文脉生画'}} | {{item.created_at}}</text>
+      </view>
+    </view>
+  </view>
+</view>
